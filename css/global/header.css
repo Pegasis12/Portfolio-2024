@@ -1,0 +1,80 @@
+.header-bg{
+  background: var(--cor-12);
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  /* para quebrar a logo do menu */
+  flex-wrap: wrap;
+  align-items: center;
+  /* gap para quando ficar responsivo n grudar o menu tanto na logo */
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.header-menu a{
+  /* padding para aumentar a area de contato com o dedo */
+  padding: 16px 0px;
+  display: inline-block;
+  position: relative;
+}
+
+/* after da linha q aprece por baixo, lembrando q width 0 pq começa em 0 paera depois ao passar o mouse ficar 100 com a transition de 0.3sec */
+.header-menu a::after{
+  content: "";
+  display: block;
+  margin-top: 4px;
+  width: 0;
+  height: 2px;
+  background: var(--cor-p1);
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover{
+  color: var(--cor-p1);
+}
+
+/* ele ganhando 100 ao passar o mouse */
+.header-menu a:hover::after{
+  width: 100%;
+}
+
+@media (max-width: 800px){
+  /* tirando o after */
+  .header-menu a::after{
+    display: none;
+  }
+
+  .header-menu a{
+    background: var(--cor-11);
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+
+  .header-menu a:hover{
+    background: var(--cor-10);
+  }
+
+  .header-menu{
+    gap: 20PX;
+  }
+}
+
+@media (max-width: 400px){
+  .header-menu{
+    gap: 12PX;
+  }
+
+  .header-menu a{
+    padding: 8px 12px;
+  }
+}

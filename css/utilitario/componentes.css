@@ -1,0 +1,10 @@
+.container {
+  /* somar os paddings */
+  box-sizing: border-box;
+  /* maxima largura de 1200px */
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* coloca ao centro */
+  margin: 0 auto;
+}
