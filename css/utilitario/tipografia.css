@@ -1,57 +1,57 @@
-/* subtitulo titulo */
+/* subtitulo titulo, lembrando que para calcular o line height deve se dividir o tamanho px pelo px do line height*/
 .font-st {
-  font: 500 2rem/1.35 "Poppins", sans-serif;
+  font: 500 2rem/1.25 "Poppins", sans-serif;
 }
 
 /* titulo */
 .font-t-x {
-  font: 500 4rem/1.35 "Poppins", sans-serif;
+  font: 500 4rem/1. 125 "Poppins", sans-serif;
 }
 
 /* titulo maior */
 .font-t-xx {
-  font: 500 9rem/1.35 "Poppins", sans-serif;
+  font: 500 9rem/1.05 "Poppins", sans-serif;
 }
 
 /* paragrafo*/
 .font-p-x {
-  font: 400 1.5/1.35 "Roboto", sans-serif;
+  font: 400 1.5rem/1.33 "Roboto", sans-serif;
 }
 
 /* paragrafo titulo menor bold */
 .font-p-tmb {
-  font: 500 1.125/1.35 "Poppins", sans-serif;
+  font: 500 1.125rem/1.35 "Poppins", sans-serif;
 }
 
 /* paragrafo menor */
 .font-p-m {
-  font: 400 1.125/1.35 "Roboto", sans-serif;
+  font: 400 0.875rem/1.25 "Roboto", sans-serif;
 }
 
 /* paragrafo menor bold*/
 .font-p-mb {
-  font: 500 1.125/1.35 "Roboto", sans-serif;
+  font: 500 1.125rem/1.25 "Roboto", sans-serif;
 }
 
 /* font header */
 .font-h {
-  font: 500 1.25/1.35 "Poppins", sans-serif;
+  font: 400 1.25rem/1.4 "Poppins", sans-serif;
 }
 
 /* font forms */
 /* font forms label */
 .font-f-l {
-  font: 500 1/1.35 "Poppins", sans-serif;
+  font: 500 1rem/1.5 "Poppins", sans-serif;
 }
 
 /* font forms placeholder */
 .font-f-l {
-  font: 400 1/1.35 "Poppins", sans-serif;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
 }
 
 /* responsivo fontes */
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .font-h {
-    font: 500 0.875/1.35 "Poppins", sans-serif;
+    font: 500 1rem/1.5 "Poppins", sans-serif;
   }
 }
