@@ -9,19 +9,34 @@
   margin: 0 auto;
 }
 
-
-.botao{
+.botao {
   display: inline-block;
   padding: 12px 16px;
   border-radius: 5px;
   text-transform: uppercase;
   color: var(--cor-p5);
-  background: linear-gradient(#FFBB00, #E4A30B);
+  background: linear-gradient(#ffbb00, #e4a30b);
   font: 500 1.25rem/1.4 "Poppins", sans-serif;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
-
-.botao:hover{
+.botao:hover {
   background: var(--cor-p2);
+}
+
+.titulo-maior {
+  text-transform: uppercase;
+  /* faz quebrar a plavra */
+  word-break: break-all;
+  /* junto com o word-break ele quebra no 4 caracter */
+  max-width: 4ch;
+  font: 500 9rem/1.05 "Poppins", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .titulo-maior {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
 }
