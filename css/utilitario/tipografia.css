@@ -5,7 +5,7 @@
 
 /* titulo */
 .font-t-x {
-  font: 500 4rem/1. 125 "Poppins", sans-serif;
+  font: 500 4rem/1.125 "Poppins", sans-serif;
 }
 
 /* titulo maior */
@@ -16,6 +16,11 @@
 /* paragrafo*/
 .font-p-x {
   font: 400 1.5rem/1.33 "Roboto", sans-serif;
+}
+
+/* usado rodape titlle */
+.font-p-xp {
+  font: 500 1.3rem/1.33 "Poppins", sans-serif;
 }
 
 /* paragrafo titulo menor bold */
@@ -54,4 +59,16 @@
   .font-h {
     font: 500 1rem/1.5 "Poppins", sans-serif;
   }
+
+  .font-st {
+    font: 500 1.5rem/1.25 "Poppins", sans-serif;
+  }
+
+  .font-t-x {
+    font: 500 2.5rem/1.125 "Poppins", sans-serif;
+  }
+
+  .font-p-x {
+    font: 400 1.2rem/1.33 "Roboto", sans-serif;
+  }  
 }

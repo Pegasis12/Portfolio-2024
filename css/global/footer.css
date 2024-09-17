@@ -30,7 +30,7 @@
 
 @media (max-width: 800px) {
   /* primeira imagem */
-  .footer > img {
+  .footer > a {
     display: none;
   }
 

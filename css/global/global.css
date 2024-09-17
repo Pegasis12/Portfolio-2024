@@ -25,9 +25,14 @@ a {
   color: inherit;
 }
 
-img{
+img {
   /* manten imagem 100% sem esticar */
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/* busca tds as imagens com final jpg e atribui border radius */
+img[src$="jpg"] {
+  border-radius: 5px;
 }

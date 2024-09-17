@@ -7,3 +7,6 @@
 @import "./utilitario/cores.css";
 @import "./utilitario/componentes.css";
 @import "./utilitario/tipografia.css";
+
+/* home */
+@import "./home/intro.css";

@@ -8,3 +8,20 @@
   /* coloca ao centro */
   margin: 0 auto;
 }
+
+
+.botao{
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: var(--cor-p5);
+  background: linear-gradient(#FFBB00, #E4A30B);
+  font: 500 1.25rem/1.4 "Poppins", sans-serif;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.botao:hover{
+  background: var(--cor-p2);
+}
