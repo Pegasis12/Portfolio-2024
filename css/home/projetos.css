@@ -1,0 +1,10 @@
+.projeto-bg{
+  background: var(--cor-11);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.projetos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
