@@ -21,7 +21,7 @@
   grid-template-columns: 1fr 1fr;
   background: var(--cor-0);
   gap: 20px;
-  padding: 60px;
+  padding: 32px;
   border-radius: 5px;
 }
 
@@ -49,19 +49,19 @@
   box-sizing: border-box;
 }
 
-@media(max-width: 920px){
-  .formulario{
+@media (max-width: 920px) {
+  .formulario {
     grid-template-columns: 1fr;
-    padding: 32px;
+    padding: 20px;
   }
-  
+
   .formulario .col-2 {
     /*Span serve só para especificar quantas colunas o elemento vai ocupar*/
     grid-column: span 1;
   }
 }
 
-@media(max-width: 800px){
+@media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
     margin-top: 60px;
@@ -69,8 +69,7 @@
     padding-bottom: 60px;
   }
 
-  .contato .titulo-maior{
+  .contato .titulo-maior {
     max-width: initial;
   }
-  
 }
