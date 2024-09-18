@@ -1,0 +1,76 @@
+.contato-bg {
+  background: var(--cor-11);
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+  margin-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.contato .titulo-maior {
+  max-width: 5ch;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor-0);
+  gap: 20px;
+  padding: 60px;
+  border-radius: 5px;
+}
+
+.formulario .col-2 {
+  /*Span serve só para especificar quantas colunas o elemento vai ocupar*/
+  grid-column: span 2;
+}
+
+.formulario label {
+  color: var(--cor-11);
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 4px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: var(--cor-1);
+  border: 1px solid var(--cor-2);
+  padding: 12px;
+  border-radius: 4px;
+  /* vai cola comoutro elemento pois esta somando o padding, para resolver, box-sizing */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media(max-width: 920px){
+  .formulario{
+    grid-template-columns: 1fr;
+    padding: 32px;
+  }
+  
+  .formulario .col-2 {
+    /*Span serve só para especificar quantas colunas o elemento vai ocupar*/
+    grid-column: span 1;
+  }
+}
+
+@media(max-width: 800px){
+  .contato {
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .contato .titulo-maior{
+    max-width: initial;
+  }
+  
+}
