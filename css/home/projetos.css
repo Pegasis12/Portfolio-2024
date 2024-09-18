@@ -1,6 +1,6 @@
 .projeto-bg{
   background: var(--cor-11);
-  box-shadow: inset 0 -240px white, inset 0 240px white;
+  box-shadow: inset 0 -120px white, inset 0 120px white;
 }
 
 .projetos{
@@ -8,8 +8,7 @@
   grid-template-columns: 1fr 2fr;
   align-items: center;
   gap: 32px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+ margin-top: 120px;
 }
 
 .projetos-galeria{
@@ -61,6 +60,7 @@
     grid-template-columns: 1fr;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-top: 60px;
   }
 
   .projetos-galeria{
