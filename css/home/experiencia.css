@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-top: 120px;
 }
 
 .empresa {
@@ -56,6 +55,7 @@
   .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
+    margin-top: 60px;
   }
 
   .empresa-ano {

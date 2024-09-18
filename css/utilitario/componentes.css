@@ -33,6 +33,12 @@
   font: 500 9rem/1.05 "Poppins", sans-serif;
 }
 
+@media (max-width: 920px) {
+  .titulo-maior {
+    font-size: 7rem;
+  }
+}
+
 @media (max-width: 800px) {
   .titulo-maior {
     font-size: 3rem;
