@@ -7,7 +7,8 @@
 }
 
 .curso-formacao {
-  background: var(--cor-12);
+  background: var(--cor-11);
+  border: solid 1px #000000;
   padding: 20px;
   border-radius: 5px;
   position: relative;
@@ -32,7 +33,7 @@
   background: linear-gradient(#19A107, #1FD407);
   position: absolute;
   top: 20px;
-  left: -4px;
+  left: -5px;
 }
 
 .curso-feitos {

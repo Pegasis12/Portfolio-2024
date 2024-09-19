@@ -17,6 +17,11 @@
   position: relative;
 }
 
+.experiencia .empresa:first-child{
+  background: var(--cor-11);
+  border-color: var(--cor-12);
+}
+
 .empresa-ano {
   position: absolute;
   top: 22px;
