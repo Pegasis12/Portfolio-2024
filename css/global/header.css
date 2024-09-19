@@ -1,8 +1,8 @@
-.header-bg{
+.header-bg {
   background: var(--cor-11);
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   /* para quebrar a logo do menu */
@@ -14,13 +14,13 @@
   padding-bottom: 20px;
 }
 
-.header-menu{
+.header-menu {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
 }
 
-.header-menu a{
+.header-menu a {
   /* padding para aumentar a area de contato com o dedo */
   padding: 16px 0px;
   display: inline-block;
@@ -28,7 +28,7 @@
 }
 
 /* after da linha q aprece por baixo, lembrando q width 0 pq começa em 0 paera depois ao passar o mouse ficar 100 com a transition de 0.3sec */
-.header-menu a::after{
+.header-menu a::after {
   content: "";
   display: block;
   margin-top: 4px;
@@ -39,30 +39,35 @@
   position: absolute;
 }
 
-.header-menu a:hover{
+.header-menu a:hover {
   color: var(--cor-p1);
 }
 
 /* ele ganhando 100 ao passar o mouse */
-.header-menu a:hover::after{
+.header-menu a:hover::after {
   width: 100%;
 }
 
 /* meun */
-.menu-ab{
+.menu-ab {
   display: none;
 }
 
-@media (max-width: 800px){
-  .menu-ab{
+@media (max-width: 800px) {
+  .header > a img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .menu-ab {
     display: block;
   }
 
-  .header{
+  .header {
     background: var(--cor-12);
   }
 
-  .header-menu{
+  .header-menu {
     display: none;
   }
 }
