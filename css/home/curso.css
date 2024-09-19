@@ -1,4 +1,4 @@
-.curso{
+.curso {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -6,20 +6,20 @@
   padding-top: 120px;
 }
 
-.curso-formacao{
-  background: var(--cor-12) ;
+.curso-formacao {
+  background: var(--cor-12);
   padding: 20px;
   border-radius: 5px;
   position: relative;
 }
 
-.curso-ano{
+.curso-ano {
   position: absolute;
   left: -100px;
   top: 22px;
 }
 
-.curso-formacao h3{
+.curso-formacao h3 {
   margin-top: 10px;
   margin-bottom: 60px;
 }
@@ -29,38 +29,37 @@
   display: block;
   height: 20px;
   width: 4px;
-  background: linear-gradient(#ffbb00, #e4a30b);
+  background: linear-gradient(#19A107, #1FD407);
   position: absolute;
   top: 20px;
   left: -4px;
 }
 
-.curso-feitos{
+.curso-feitos {
   margin-top: 40px;
 }
 
-.curso-feitos-titulo{
+.curso-feitos-titulo {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.curso-feitos ul{
+.curso-feitos ul {
   margin-top: 20px;
   margin-left: 36px;
 }
 
-.curso-feitos li:first-child{
+.curso-feitos li:first-child {
   margin-bottom: 8px;
 }
 
-.curso-feitos-titulo::before{
+.curso-feitos-titulo::before {
   content: url("/img/icones/cursos.svg");
 }
 
-
-@media (max-width: 800px){
-  .curso{
+@media (max-width: 800px) {
+  .curso {
     grid-template-columns: 1fr;
     padding-top: 60px;
   }
