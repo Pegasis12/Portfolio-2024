@@ -64,4 +64,9 @@
     grid-template-columns: 1fr;
     padding-top: 60px;
   }
+
+  .curso-ano{
+    position: initial;
+    display: flex;
+  }
 }
