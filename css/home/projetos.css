@@ -8,7 +8,7 @@
   grid-template-columns: 1fr 2fr;
   align-items: start;
   gap: 32px;
- margin-top: 120px;
+  margin-top: 120px;
 }
 
 .projetos h2{
@@ -22,6 +22,7 @@
   background: #1F1F1F;
   padding: 60px;
   border-radius: 5px;
+  position: relative;
 }
 
 .projetos-galeria p{
@@ -51,7 +52,19 @@
   width: 24px;
 }
 
+
+.arrow{
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+}
+
 @media (max-width: 800px){
+  .arrow{
+    bottom: -30px;
+    right: 0px;
+  }
+
   .projeto-bg{
     background: var(--cor-11);
     padding-top: initial;
