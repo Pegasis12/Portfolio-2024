@@ -30,7 +30,7 @@
   display: block;
   height: 20px;
   width: 4px;
-  background: linear-gradient(#19A107, #1FD407);
+  background: linear-gradient(#19a107, #1fd407);
   position: absolute;
   top: 20px;
   left: -5px;
@@ -56,7 +56,7 @@
 }
 
 .curso-feitos-titulo::before {
-  content: url("/img/icones/cursos.svg");
+  content: url("../../img/icones/cursos.svg");
 }
 
 @media (max-width: 800px) {
@@ -65,7 +65,7 @@
     padding-top: 60px;
   }
 
-  .curso-ano{
+  .curso-ano {
     position: initial;
     display: flex;
   }
